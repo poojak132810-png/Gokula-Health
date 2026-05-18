@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gokula-Health</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_cattle">Cattle</string>
+    <string name="nav_milk">Milk Diary</string>
+    <string name="nav_vaccination">Vaccinations</string>
+    <string name="nav_reports">Reports</string>
+
+    <!-- Cattle -->
+    <string name="add_cattle">Add Cattle</string>
+    <string name="ear_tag_id">Ear Tag ID</string>
+    <string name="cattle_name">Cattle Name</string>
+    <string name="breed">Breed</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="empty_cattle">No cattle registered yet.\nTap + to add your first cow!</string>
+
+    <!-- Milk Diary -->
+    <string name="select_cattle">Select Cattle</string>
+    <string name="date">Date</string>
+    <string name="morning_yield">Morning Yield (L)</string>
+    <string name="evening_yield">Evening Yield (L)</string>
+    <string name="total_yield">Total: %.1f L</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="monthly_average">Monthly Average: %.1f L/day</string>
+    <string name="empty_milk">No milk entries yet.\nStart recording daily yields!</string>
+
+    <!-- Vaccination -->
+    <string name="add_vaccination">Add Vaccination</string>
+    <string name="vaccine_name">Vaccine Name</string>
+    <string name="date_given">Date Given</string>
+    <string name="next_due_date">Next Due Date</string>
+    <string name="notes">Notes</string>
+    <string name="overdue">OVERDUE</string>
+    <string name="due_soon">DUE SOON</string>
+    <string name="upcoming">UPCOMING</string>
+    <string name="empty_vaccination">No vaccination records yet.\nKeep your cattle healthy!</string>
+
+    <!-- Reports -->
+    <string name="yield_report">Yield Report</string>
+    <string name="last_30_days">Last 30 Days</string>
+    <string name="average_line">Average</string>
+    <string name="empty_reports">No data to show.\nAdd milk entries first!</string>
+
+    <!-- Vaccine Names -->
+    <string name="fmd">FMD</string>
+    <string name="hs">HS</string>
+    <string name="bq">BQ</string>
+    <string name="deworming">Deworming</string>
+    <string name="other">Other</string>
+
+    <!-- General -->
+    <string name="error_required">This field is required</string>
+    <string name="error_invalid">Invalid input</string>
+    <string name="saved_successfully">Saved successfully</string>
+    <string name="deleted_successfully">Deleted successfully</string>
+</resources>

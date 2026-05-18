@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_cattle"
+        android:icon="@drawable/ic_cow"
+        android:title="@string/nav_cattle" />
+    <item
+        android:id="@+id/nav_milk"
+        android:icon="@drawable/ic_milk"
+        android:title="@string/nav_milk" />
+    <item
+        android:id="@+id/nav_vaccination"
+        android:icon="@drawable/ic_syringe"
+        android:title="@string/nav_vaccination" />
+    <item
+        android:id="@+id/nav_reports"
+        android:icon="@drawable/ic_chart"
+        android:title="@string/nav_reports" />
+</menu>

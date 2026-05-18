@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_cattle">
+
+    <fragment
+        android:id="@+id/nav_cattle"
+        android:name="com.gokulahealth.ui.cattle.CattleListFragment"
+        android:label="Cattle"
+        tools:layout="@layout/fragment_cattle_list">
+        <action
+            android:id="@+id/action_cattle_to_add"
+            app:destination="@id/nav_add_cattle" />
+        <action
+            android:id="@+id/action_cattle_to_detail"
+            app:destination="@id/nav_cattle_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_add_cattle"
+        android:name="com.gokulahealth.ui.cattle.AddCattleFragment"
+        android:label="Add Cattle"
+        tools:layout="@layout/fragment_add_cattle" />
+
+    <fragment
+        android:id="@+id/nav_cattle_detail"
+        android:name="com.gokulahealth.ui.cattle.CattleDetailFragment"
+        android:label="Cattle Detail"
+        tools:layout="@layout/fragment_cattle_detail">
+        <argument
+            android:name="cattleId"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_milk"
+        android:name="com.gokulahealth.ui.milk.MilkDiaryFragment"
+        android:label="Milk Diary"
+        tools:layout="@layout/fragment_milk_diary" />
+
+    <fragment
+        android:id="@+id/nav_vaccination"
+        android:name="com.gokulahealth.ui.vaccination.VaccinationFragment"
+        android:label="Vaccinations"
+        tools:layout="@layout/fragment_vaccination" />
+
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.gokulahealth.ui.reports.ReportsFragment"
+        android:label="Reports"
+        tools:layout="@layout/fragment_reports" />
+
+</navigation>
